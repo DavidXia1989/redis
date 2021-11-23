@@ -11,16 +11,8 @@ golang >= 1.13.0
 Install:
 
 ```
-// 设置环境变量使得go支持私有库
-GOPRIVATE=code.zm.shzhanmeng.com
 // 安装
-go get -u code.zm.shzhanmeng.com/go-common/redis
-```
-
-Import:
-
-```go
-import "code.zm.shzhanmeng.com/go-common/redis"
+go get github.com/DavidXia1989//redis
 ```
 
 ## Quickstart
@@ -44,8 +36,6 @@ func main(){
 ```
 
 ## Howto
-
-[example](https://code.zm.shzhanmeng.com/go-common/redis/-/tree/master/example)
 
 基于[https://github.com/go-redis/redis](https://github.com/go-redis/redis)开发，所有方法请参考官方文档
 
