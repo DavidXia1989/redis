@@ -1,7 +1,7 @@
 package redis_test
 
 import (
-    "code.zm.shzhanmeng.com/go-common/redis"
+    "github.com/DavidXia1989/redis"
     "fmt"
     "path/filepath"
     "testing"

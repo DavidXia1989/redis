@@ -12,7 +12,7 @@ Install:
 
 ```
 // 安装
-go get github.com/DavidXia1989//redis
+go get github.com/DavidXia1989/redis
 ```
 
 ## Quickstart
